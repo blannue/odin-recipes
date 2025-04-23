@@ -35,8 +35,19 @@ li {
 }
 
 a {
+    padding: 10px;
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: rgb(250, 122, 37);
+    transition: 0.4s;
+}
+
+a:active {
+    color:blueviolet;
+    transition: none;
 }
 
 h5 {

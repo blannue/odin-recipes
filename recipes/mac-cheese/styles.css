@@ -38,9 +38,14 @@ a {
 }
 
 button {
+    cursor: pointer;
     padding: 5px;
     margin: 20px auto;
 
+}
+
+button:active {
+    background-color: gray;
 }
 
 img {
